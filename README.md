@@ -1,119 +1,89 @@
-# WebGelistirme-OrtaSeviyeProjeler
-# 20 Web Projesi Serisi - Proje Özetleri ve Kazanımlar
+# 🌐 Intermediate Web Development Projects – 20 Practical Applications
+
+A curated series of **20 intermediate-level web projects** designed to help you strengthen your skills in **HTML, CSS, and JavaScript**, while practicing DOM manipulation, data persistence, and API integrations. These projects provide hands-on experience for building functional, interactive websites.
 
 ---
 
-## 1. Hava Durumu Uygulaması (Weather App with API)  
-Gerçek zamanlı hava durumu bilgilerini bir API aracılığıyla çekip kullanıcıya sunar. Kullanıcıların konumuna göre veya manuel şehir seçimi ile hava durumu tahmini sağlar.
+## 🚀 Project List
+
+1. **Weather App (with API)**  
+   Fetches real-time weather data via an API and displays forecasts based on user location or manual city search.
+
+2. **Instant Note Taking App**  
+   Allows users to quickly jot down notes and saves them in the browser's localStorage for persistence.
+
+3. **Theme & Preference Saving**  
+   Stores the user's choice of light or dark theme and preserves preferences even after a page reload.
+
+4. **Simple Shopping Cart**  
+   A basic cart system where users can add, remove, and manage products dynamically.
+
+5. **Blog Fetching Data from JSON**  
+   Dynamically loads and displays blog posts from an external JSON file.
+
+6. **Keyboard Key Animation**  
+   Detects keystrokes and visually animates pressed keys for feedback.
+
+7. **Audio Alarm Setter**  
+   Lets users set a custom alarm time with audio alerts.
+
+8. **Canvas Drawing App**  
+   A simple drawing application using the HTML5 Canvas API.
+
+9. **Autocomplete Suggestion Box**  
+   Provides live suggestions and autocompletion based on user input.
+
+10. **Image Uploader & Preview**  
+    Allows image upload and displays an instant preview before submission.
+
+11. **Draggable Card System (Trello-style)**  
+    Enables drag-and-drop functionality for rearranging cards easily.
+
+12. **Markdown Editor**  
+    A live editor for writing markdown text with real-time preview.
+
+13. **Random Joke/Quote App**  
+    Displays a new random joke or quote on each refresh or button click.
+
+14. **Simple Currency Converter**  
+    Uses an API to fetch current exchange rates and convert between currencies.
+
+15. **Movie Search App (OMDB API)**  
+    Search movies and display details using the OMDB API.
+
+16. **Notebook (with localStorage)**  
+    A browser-based notebook for storing notes persistently.
+
+17. **Simple Map Integration (LeafletJS)**  
+    Implements an interactive map using LeafletJS.
+
+18. **Music Player**  
+    Plays user-selected audio files with playback controls.
+
+19. **Dark/Light Theme Toggle**  
+    Switches between dark and light themes while remembering user preferences.
+
+20. **Image Filter Application (CSS Effects)**  
+    Apply visual effects to images dynamically using CSS filters.
 
 ---
 
-## 2. Anlık Not Alma Uygulaması (Instant Note Taking App)  
-Kullanıcının hızlıca not almasını sağlar ve bu notları tarayıcının localStorage alanında saklayarak kalıcı hale getirir.
+## 🧠 Skills You’ll Gain
+
+- Solid understanding and hands-on practice with **HTML, CSS, JavaScript**
+- **DOM manipulation**, **event handling**, and **form control** expertise
+- **API integration** for dynamic data fetching and display
+- Data persistence using **localStorage**
+- Enhanced **UI/UX principles** for better user interaction
+- **Animations, theme management, and visual effects** to create engaging interfaces
+- Improved project structure and **clean coding habits**
+- Problem-solving and algorithmic thinking through practical challenges
 
 ---
 
-## 3. Sayfa Teması & Kullanıcı Tercihi Kaydetme (Theme & Preference Saving)  
-Kullanıcının gece veya gündüz teması seçimini kaydeder ve sayfa yenilense bile tercihlerini korur.
+These projects will help you **build a strong foundation** in frontend development, bridging the gap between beginner and advanced skills. Keep coding, keep improving, and take your web development journey to the next level! 🚀✨
 
----
+## 📃 License
 
-## 4. Basit Alışveriş Sepeti (Simple Shopping Cart)  
-Ürün seçimi, ekleme ve çıkarma işlemleri ile temel alışveriş sepeti işlevini yerine getirir.
-
----
-
-## 5. JSON’dan Veri Çeken Blog (Blog Fetching Data from JSON)  
-Harici bir JSON dosyasından blog içeriklerini dinamik olarak çekip, kullanıcıya listeler.
-
----
-
-## 6. Klavye Tuş Animasyonu (Keyboard Key Animation)  
-Kullanıcının klavyeden bastığı tuşları algılar ve bu tuşlara animasyonlar uygulayarak görsel geri bildirim verir.
-
----
-
-## 7. Sesli Alarm Kurma Uygulaması (Audio Alarm Setter)  
-Kullanıcının belirlediği zamanda sesli alarm çalarak uyarı vermesini sağlar.
-
----
-
-## 8. Çizim Uygulaması (Canvas Drawing App)  
-HTML5 canvas alanında kullanıcıya çizim yapma imkanı sunar.
-
----
-
-## 9. Öneri Kutusu (Autocomplete Suggestion Box)  
-Kullanıcının yazdığı metne göre otomatik tamamlamalar ve öneriler sunar.
-
----
-
-## 10. Resim Yükleyici ve Ön İzleme (Image Uploader & Preview)  
-Kullanıcının seçtiği resmi yükler ve sayfada önizlemesini gösterir.
-
----
-
-## 11. Sürükle Bırak Yapılabilir Kart Sistemi (Draggable Card System - Trello Style)  
-Kartların sürüklenip bırakılmasıyla kolayca organize edilmesini sağlar.
-
----
-
-## 12. Markdown Editörü (Markdown Editor)  
-Kullanıcının markdown formatında yazı yazmasını ve gerçek zamanlı önizlemesini sağlar.
-
----
-
-## 13. Rastgele Şaka/Quote Uygulaması (Random Joke/Quote App)  
-Kullanıcıya her yenilemede rastgele şaka veya alıntı gösterir.
-
----
-
-## 14. Basit Döviz Çevirici (Simple Currency Converter)  
-API aracılığıyla güncel döviz kurlarını çekerek para birimi dönüştürme işlemi yapar.
-
----
-
-## 15. Film Arama Uygulaması (Movie Search App - OMDB API)  
-OMDB API kullanarak film arama ve detay bilgilerini gösterme imkanı sunar.
-
----
-
-## 16. Not Defteri (Notebook with localStorage)  
-Kullanıcının notlarını kaydeder ve localStorage’da saklayarak kalıcı hale getirir.
-
----
-
-## 17. Basit Harita Entegrasyonu (Simple Map Integration - LeafletJS)  
-LeafletJS kullanarak interaktif harita gösterimi sağlar.
-
----
-
-## 18. Müzik Oynatıcı (Music Player)  
-Kullanıcının seçtiği ses dosyalarını çalar ve kontrol imkanı sunar.
-
----
-
-## 19. Sayfa Tema Değiştirici (Gece/Gündüz) (Dark/Light Theme Toggle)  
-Sayfa temasını gece ve gündüz arasında değiştirir, kullanıcının tercihini kaydeder.
-
----
-
-## 20. Resim Filtre Uygulaması (CSS ile) (Image Filter Application with CSS)  
-CSS filtreleri kullanarak resimlere farklı efektler uygular.
-
----
-
-## 🚀 Bu Projeleri Yapanların Kazanacağı Beceriler
-
-- Modern **HTML, CSS, JavaScript** bilgisi ve pratik uygulama deneyimi  
-- **DOM manipülasyonu**, **event handling**, **form kontrolü** gibi temel web geliştirme yetenekleri  
-- **API kullanımı** ve dinamik veri işleme becerileri  
-- **Tarayıcı veri depolama (localStorage)** ile veri kalıcılığı sağlama  
-- **Kullanıcı arayüzü (UI) ve deneyimi (UX)** geliştirme prensipleri  
-- **Animasyon, tema yönetimi ve görsel efektler** ile kullanıcı etkileşimini artırma  
-- **Proje yapısı ve temiz kod yazma** alışkanlığı  
-- Problem çözme ve algoritma geliştirme yetenekleri  
-
----
-
-Bu projeler, yazılım mühendisliği yolculuğunuzda sağlam ve ileri görüşlü bir temel oluşturacak. Her adımda ilerleyin, daima yeni şeyler öğrenmeye açık olun. Yolunuz açık olsun! 🚀✨
+MIT © 2025 [Radi Dll]
+EOF
